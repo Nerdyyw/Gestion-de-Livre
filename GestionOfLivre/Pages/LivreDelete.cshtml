@@ -1,0 +1,26 @@
+﻿@page
+@using Microsoft.Extensions.Logging
+@using System.Data.SqlClient
+@inject ILogger<LivreDeleteModel> Logger
+
+@{
+    try
+    {
+        string IDLivre = Request.Query["IDLivre"];
+        string connectionString = "Data Source=DESKTOP-4GIP9VN\\sqlexpress;Initial Catalog=GestionDeLivre;Integrated Security=True";
+        SqlConnection con = new SqlConnection(connectionString);
+        con.Open();
+        string sql = "delete from Livre where IDLivre=@IDLivre";
+        SqlCommand cmd = new SqlCommand(sql, con);
+        cmd.Parameters.AddWithValue("@IDLivre", IDLivre);
+        cmd.ExecuteNonQuery();
+        con.Close();
+        Logger.LogInformation("Book deleted successfully");
+        Response.Redirect("/Livre");
+    }
+    catch (Exception ex)
+    {
+        Logger.LogError(ex, "An error occurred during book deletion");
+    }
+    Response.Redirect("/Livre");
+}

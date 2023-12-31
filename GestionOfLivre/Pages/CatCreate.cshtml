@@ -1,0 +1,55 @@
+﻿@page
+@model GestionOfLivre.Pages.CatCreate.CatCreateModel
+@{
+}
+<br />
+<h2>Nouvelle Categorie</h2>
+
+@if (Model.errorMessage.Length > 0)
+{
+    <div class='alert alert-warning alert-dismissible fade show' role='alert'>
+        <strong>@Model.errorMessage</strong>
+        <button type='button' class='btn_close' date-bs-dismiss='alert' aria-label='Close'></button>
+    </div>
+}
+
+<form method="post">
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">IDCat</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="IDCat" value="@Model.Categorieinfo.IDCat">
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">NomCat</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="NomCat" value="@Model.Categorieinfo.NomCat">
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">DescriptionCat</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="DescriptionCat" value="@Model.Categorieinfo.DescriptionCat">
+        </div>
+    </div>
+    
+
+    @if (Model.SuccessMessage.Length > 0)
+    {
+        <div class="row mb-3">
+            <div class='alert alert-success alert-dismissible fade show' role='alert'>
+                <strong>@Model.SuccessMessage</strong>
+                <button type='button' class='btn_close' date-bs-dismiss='alert' aria-label='Close'></button>
+            </div>
+        </div>
+    }
+
+    <div class="row mb-3">
+        <div class="offset-sm3 col-sm-3 d-grid">
+            <button type="submit" class="btn btn-primary"> Submit </button>
+        </div>
+        <div class="col-sm-3 d-grid">
+            <a class="btn btn-outline-primary" href="/Categorie" role="button">Cancel</a>
+        </div>
+    </div>
+</form>

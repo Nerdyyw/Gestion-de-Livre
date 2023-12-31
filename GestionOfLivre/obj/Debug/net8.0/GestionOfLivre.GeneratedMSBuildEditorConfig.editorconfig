@@ -1,0 +1,111 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = GestionOfLivre
+build_property.RootNamespace = GestionOfLivre
+build_property.ProjectDir = C:\Users\wiss\Desktop\GestionOfLivre\GestionOfLivre\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\wiss\Desktop\GestionOfLivre\GestionOfLivre
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/wiss/Desktop/GestionOfLivre/GestionOfLivre/Pages/Auteur/Auteur.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0ZXVyXEF1dGV1ci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wiss/Desktop/GestionOfLivre/GestionOfLivre/Pages/Auteur/AuteurCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0ZXVyXEF1dGV1ckNyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wiss/Desktop/GestionOfLivre/GestionOfLivre/Pages/Auteur/AuteurDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0ZXVyXEF1dGV1ckRlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wiss/Desktop/GestionOfLivre/GestionOfLivre/Pages/Auteur/AuteurEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0ZXVyXEF1dGV1ckVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wiss/Desktop/GestionOfLivre/GestionOfLivre/Pages/CatCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0Q3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wiss/Desktop/GestionOfLivre/GestionOfLivre/Pages/CatDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0RGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wiss/Desktop/GestionOfLivre/GestionOfLivre/Pages/CatEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0RWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wiss/Desktop/GestionOfLivre/GestionOfLivre/Pages/Categorie.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmllLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wiss/Desktop/GestionOfLivre/GestionOfLivre/Pages/Editeur.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdGV1ci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wiss/Desktop/GestionOfLivre/GestionOfLivre/Pages/EditeurCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdGV1ckNyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wiss/Desktop/GestionOfLivre/GestionOfLivre/Pages/EditeurDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdGV1ckRlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wiss/Desktop/GestionOfLivre/GestionOfLivre/Pages/EditeurEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdGV1ckVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wiss/Desktop/GestionOfLivre/GestionOfLivre/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wiss/Desktop/GestionOfLivre/GestionOfLivre/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wiss/Desktop/GestionOfLivre/GestionOfLivre/Pages/Livre.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGl2cmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wiss/Desktop/GestionOfLivre/GestionOfLivre/Pages/LivreCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGl2cmVDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wiss/Desktop/GestionOfLivre/GestionOfLivre/Pages/LivreDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGl2cmVEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wiss/Desktop/GestionOfLivre/GestionOfLivre/Pages/LivreEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGl2cmVFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wiss/Desktop/GestionOfLivre/GestionOfLivre/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wiss/Desktop/GestionOfLivre/GestionOfLivre/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wiss/Desktop/GestionOfLivre/GestionOfLivre/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wiss/Desktop/GestionOfLivre/GestionOfLivre/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wiss/Desktop/GestionOfLivre/GestionOfLivre/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-mewua2klao

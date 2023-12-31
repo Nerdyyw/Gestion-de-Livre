@@ -1,0 +1,49 @@
+﻿@page
+@model GestionOfLivre.Pages.EditeurEdit.EditeurEditModel
+@{
+    <br />
+    <h2>Les informations de l'editeur : </h2>
+    <form method="post">
+        <input type="hidden" name="IDEditeur" value="@Model.Editeurinfo.IDEditeur" asp-for="Editeurinfo.IDEditeur">
+        <div class="row mb-3">
+            <label class="col-sm-3 col-form-label">NomEditeur</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" name="NomEditeur" value="@Model.Editeurinfo.NomEditeur" asp-for="Editeurinfo.NomEditeur">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label class="col-sm-3 col-form-label">DescripEditeur</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" name="DescripEditeur" value="@Model.Editeurinfo.DescripEditeur" asp-for="Editeurinfo.DescripEditeur">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label class="col-sm-3 col-form-label">EmailEdit</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" name="EmailEdit" value="@Model.Editeurinfo.EmailEdit" asp-for="Editeurinfo.EmailEdit">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label class="col-sm-3 col-form-label">telephonrEdi</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" name="telephonrEdi" value="@Model.Editeurinfo.telephonrEdi" asp-for="Editeurinfo.telephonrEdi">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label class="col-sm-3 col-form-label">AddressEdit</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" name="AddressEdit" value="@Model.Editeurinfo.AddressEdit" asp-for="Editeurinfo.AddressEdit">
+            </div>
+        </div>
+
+
+        <div class="row mb-3">
+            <div class="offset-sm3 col-sm-3 d-grid">
+                <button type="submit" class="btn btn-primary"> Submit </button>
+            </div>
+            <div class="col-sm-3 d-grid">
+                <a class="btn btn-outline-primary" href="/Editeur" role="button">Cancel</a>
+            </div>
+        </div>
+    </form>
+}

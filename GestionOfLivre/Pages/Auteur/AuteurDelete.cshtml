@@ -1,0 +1,30 @@
+﻿@page
+@using Microsoft.Extensions.Logging
+@using System.Data.SqlClient
+@inject ILogger<AuteurDeleteModel> Logger
+
+@{
+    try
+    {
+        string IDAuteur = Request.Query["IDAuteur"];
+        string connectionString = "Data Source=DESKTOP-4GIP9VN\\sqlexpress;Initial Catalog=GestionDeLivre;Integrated Security=True";
+        using (SqlConnection con = new SqlConnection(connectionString))
+        {
+            con.Open();
+            string sql = "delete from Auteur where IDAuteur=@IDAuteur";
+            using (SqlCommand cmd = new SqlCommand(sql, con))
+            {
+                cmd.Parameters.AddWithValue("@IDAuteur", IDAuteur);
+                cmd.ExecuteNonQuery();
+                con.Close();
+                Logger.LogInformation("Author deleted successfully");
+                Response.Redirect("/Auteur/Auteur");
+            }
+        }
+    }
+    catch (Exception ex)
+    {
+        Logger.LogError(ex, "An error occurred during author deletion");
+        Response.Redirect("/Auteur/Auteur");
+    }
+}

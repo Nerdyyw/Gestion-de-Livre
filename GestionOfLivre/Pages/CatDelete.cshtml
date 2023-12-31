@@ -1,0 +1,27 @@
+﻿@page
+@using Microsoft.Extensions.Logging
+@using System.Data.SqlClient
+@inject ILogger<CatDeleteModel> Logger;
+@{
+	try
+	{
+		string IDCat = Request.Query["IDCat"];
+		string connectionString = "Data Source=DESKTOP-4GIP9VN\\sqlexpress;Initial Catalog=GestionDeLivre;Integrated Security=True";
+		SqlConnection con = new SqlConnection(connectionString);
+		con.Open();
+		string sql = "delete from Categorie where IDCat=@IDCat";
+		SqlCommand cmd = new SqlCommand(sql, con);
+		cmd.Parameters.AddWithValue("@IDCat", IDCat);
+		cmd.ExecuteNonQuery();
+		con.Close();
+		Logger.LogInformation("Category deleted successfully");
+		Response.Redirect("/Categorie");
+	}
+	catch (Exception ex)
+	{
+		Logger.LogError(ex, "An error occurred during category deletion");
+		
+	}
+	Response.Redirect("/Categorie");
+	
+}

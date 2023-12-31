@@ -1,0 +1,106 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<style>
+    .welcome {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        position: relative;
+        top: 10%;
+        margin-bottom: 100px;
+        
+        
+    }
+
+     .welcome h1 {
+        position: relative;
+        font-size: 55px;
+        top: 80px;
+        left: 25px;
+    }
+
+        .welcome h1 span {
+            color: #089da1;
+        }
+
+         .welcome p {
+        width: 650px;
+        text-align: justify;
+        line-height: 22px;
+        position: relative;
+        top: 125px;
+        left: 25px;
+    }
+
+         
+
+     .welcome .main_img img {
+        width: 780px;
+        position: relative;
+        top: 90px;
+        left: 20px;
+    }
+    /*about*/
+
+    .about {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+        .about .about_image img {
+            width: 800px;
+        }
+
+        .about .about_tag h1 {
+            font-size: 50px;
+            position: relative;
+            bottom: 35px;
+        }
+
+        .about .about_tag p {
+            line-height: 22px;
+            width: 650px;
+            text-align: justify;
+            margin-bottom: 15px;
+        }
+
+        
+
+</style>
+<div class="welcome">
+    <div class="welcome_tag">
+        <h1>BIENVENUE SUR<br><span>NOTRE PLATEFORME DE GESTION DE LIVRES EN LIGNE</span></h1>
+        <p>
+            Sur notre havre numérique pour les amateurs de livres, nous sommes fiers de fournir une expérience immersive et conviviale conçue pour répondre à vos besoins littéraires.
+            Explorez une vaste collection de livres couvrant différents genres, auteurs et thèmes, tous soigneusement organisés pour votre plaisir de navigation. Que vous soyez un lecteur assidu à la recherche des derniers best-sellers ou un universitaire plongé dans des œuvres savantes, notre catalogue complet a quelque chose pour chacun.
+        </p>
+        
+    </div>
+
+    <div class="main_img">
+        <img src="~/image/table.png"> 
+    </div>
+</div>
+<!--About-->
+
+<div class="about">
+
+    <div class="about_image">
+        <img src="~/image/about.png">
+    </div>
+    <div class="about_tag">
+        <h1>About Us</h1>
+        <p>
+            Bienvenue sur GestionOfLivre, votre destination littéraire en ligne. Chez GestionOfLivre, nous croyons en la puissance des mots pour inspirer, divertir et éduquer. Notre plateforme est née de la passion partagée pour les livres et la volonté de créer un espace où les amateurs de lecture peuvent explorer, découvrir et partager leurs trouvailles littéraires.
+        </p>
+       
+    </div>
+
+</div>

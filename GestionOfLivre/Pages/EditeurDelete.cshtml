@@ -1,0 +1,25 @@
+﻿@page
+@using Microsoft.Extensions.Logging
+@using System.Data.SqlClient
+@inject ILogger<EditeurDeleteModel> Logger
+@{
+    try
+    {
+        string IDEditeur = Request.Query["IDEditeur"];
+        string connectionString = "Data Source=DESKTOP-4GIP9VN\\sqlexpress;Initial Catalog=GestionDeLivre;Integrated Security=True";
+        SqlConnection con = new SqlConnection(connectionString);
+        con.Open();
+        string sql = "delete from Editeur where IDEditeur=@IDEditeur";
+        SqlCommand cmd = new SqlCommand(sql, con);
+        cmd.Parameters.AddWithValue("@IDEditeur", IDEditeur);
+        cmd.ExecuteNonQuery();
+        con.Close();
+        Logger.LogInformation("Editor deleted successfully");
+        Response.Redirect("/Editeur");
+    }
+    catch (Exception ex)
+    {
+        Logger.LogError(ex, "An error occurred during editor deletion");
+    }
+    Response.Redirect("/Editeur");
+}

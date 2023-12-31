@@ -1,0 +1,66 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="Pages\Auteur.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Pages\Auteur.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Pages\Auteur.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Pages\Auteur\Auteur.cshtml" />
+    <None Include="wwwroot\image\about.png" />
+    <None Include="wwwroot\image\arrival_1.jpg" />
+    <None Include="wwwroot\image\arrival_10.jpg" />
+    <None Include="wwwroot\image\arrival_2.jpg" />
+    <None Include="wwwroot\image\arrival_3.jpg" />
+    <None Include="wwwroot\image\arrival_4.jpg" />
+    <None Include="wwwroot\image\arrival_5.jpg" />
+    <None Include="wwwroot\image\arrival_6.jpg" />
+    <None Include="wwwroot\image\arrival_7.jpg" />
+    <None Include="wwwroot\image\arrival_8.webp" />
+    <None Include="wwwroot\image\arrival_9.jpg" />
+    <None Include="wwwroot\image\banner.jpg" />
+    <None Include="wwwroot\image\bg.png" />
+    <None Include="wwwroot\image\blog_1.jpg" />
+    <None Include="wwwroot\image\blog_2.jpg" />
+    <None Include="wwwroot\image\blog_3.jpg" />
+    <None Include="wwwroot\image\book_1.jpg" />
+    <None Include="wwwroot\image\book_10.png" />
+    <None Include="wwwroot\image\book_11.jpg" />
+    <None Include="wwwroot\image\book_12.png" />
+    <None Include="wwwroot\image\book_13.png" />
+    <None Include="wwwroot\image\book_14.png" />
+    <None Include="wwwroot\image\book_15.png" />
+    <None Include="wwwroot\image\book_2.jpg" />
+    <None Include="wwwroot\image\book_3.jpg" />
+    <None Include="wwwroot\image\book_4.jpg" />
+    <None Include="wwwroot\image\book_5.jpg" />
+    <None Include="wwwroot\image\book_6.jpg" />
+    <None Include="wwwroot\image\book_7.png" />
+    <None Include="wwwroot\image\book_8.png" />
+    <None Include="wwwroot\image\book_9.jpg" />
+    <None Include="wwwroot\image\logo.png" />
+    <None Include="wwwroot\image\review_1.png" />
+    <None Include="wwwroot\image\review_2.png" />
+    <None Include="wwwroot\image\review_3.png" />
+    <None Include="wwwroot\image\review_4.png" />
+    <None Include="wwwroot\image\table.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,73 @@
+﻿@page
+@model GestionOfLivre.Pages.EditeurCreate.EditeurCreateModel
+@{
+}
+<br />
+<h2>Nouveau Editeur</h2>
+
+@if (Model.errorMessage.Length > 0)
+{
+    <div class='alert alert-warning alert-dismissible fade show' role='alert'>
+        <strong>@Model.errorMessage</strong>
+        <button type='button' class='btn_close' date-bs-dismiss='alert' aria-label='Close'></button>
+    </div>
+}
+
+<form method="post">
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">IDEditeur</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="IDEditeur" value="@Model.Editeurinfo.IDEditeur">
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">NomEditeur</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="NomEditeur" value="@Model.Editeurinfo.NomEditeur">
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">DescripEditeur</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="DescripEditeur" value="@Model.Editeurinfo.DescripEditeur">
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">EmailEdit</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="EmailEdit" value="@Model.Editeurinfo.EmailEdit">
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">telephonrEdi</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="telephonrEdi" value="@Model.Editeurinfo.telephonrEdi">
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">AddressEdit</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="AddressEdit" value="@Model.Editeurinfo.AddressEdit">
+        </div>
+    </div>
+
+
+    @if (Model.SuccessMessage.Length > 0)
+    {
+        <div class="row mb-3">
+            <div class='alert alert-success alert-dismissible fade show' role='alert'>
+                <strong>@Model.SuccessMessage</strong>
+                <button type='button' class='btn_close' date-bs-dismiss='alert' aria-label='Close'></button>
+            </div>
+        </div>
+    }
+
+    <div class="row mb-3">
+        <div class="offset-sm3 col-sm-3 d-grid">
+            <button type="submit" class="btn btn-primary"> Submit </button>
+        </div>
+        <div class="col-sm-3 d-grid">
+            <a class="btn btn-outline-primary" href="/Editeur" role="button">Cancel</a>
+        </div>
+    </div>
+</form>

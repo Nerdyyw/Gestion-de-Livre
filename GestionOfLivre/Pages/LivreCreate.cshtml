@@ -1,0 +1,72 @@
+﻿@page
+@model GestionOfLivre.Pages.LivreCreate.LivreCreateModel
+@{
+}
+
+<h2>Nouveau Livre</h2>
+
+@if (Model.errorMessage.Length > 0)
+{
+    <div class='alert alert-warning alert-dismissible fade show' role='alert'>
+        <strong>@Model.errorMessage</strong>
+        <button type='button' class='btn_close' date-bs-dismiss='alert' aria-label='Close'></button>
+    </div>
+}
+
+<form method="post">
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">IDLivre</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="IDLivre" value="@Model.Livreinfo.IDLivre">
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Titre</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="Titre" value="@Model.Livreinfo.Titre">
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">SPM</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="SPM" value="@Model.Livreinfo.SPM">
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">IDEditeur</label>
+        <div class="col-sm-6">
+            <select class="form-select" name="IDEditeur" asp-items="Model.Editeurs"></select>
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">IDAuteur</label>
+        <div class="col-sm-6">
+            <select class="form-select" name="IDAuteur" asp-items="Model.Auteurs"></select>
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">IDCat</label>
+        <div class="col-sm-6">
+            <select class="form-select" name="IDCat" asp-items="Model.Categories"></select>
+        </div>
+    </div>
+
+    @if (Model.SuccessMessage.Length > 0)
+    {
+        <div class="row mb-3">
+            <div class='alert alert-success alert-dismissible fade show' role='alert'>
+                <strong>@Model.SuccessMessage</strong>
+                <button type='button' class='btn_close' date-bs-dismiss='alert' aria-label='Close'></button>
+            </div>
+        </div>
+    }
+
+    <div class="row mb-3">
+        <div class="offset-sm3 col-sm-3 d-grid">
+            <button type="submit" class="btn btn-primary"> Submit </button>
+        </div>
+        <div class="col-sm-3 d-grid">
+            <a class="btn btn-outline-primary" href="/Livre">Cancel</a>
+        </div>
+    </div>
+</form>

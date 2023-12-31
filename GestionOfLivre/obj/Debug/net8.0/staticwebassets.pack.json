@@ -1,0 +1,417 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GestionOfLivre.bundle.scp.css",
+      "PackagePath": "staticwebassets\\GestionOfLivre.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\image\\about.png",
+      "PackagePath": "staticwebassets\\image\\about.png"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\image\\arrival_1.jpg",
+      "PackagePath": "staticwebassets\\image\\arrival_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\image\\arrival_10.jpg",
+      "PackagePath": "staticwebassets\\image\\arrival_10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\image\\arrival_2.jpg",
+      "PackagePath": "staticwebassets\\image\\arrival_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\image\\arrival_3.jpg",
+      "PackagePath": "staticwebassets\\image\\arrival_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\image\\arrival_4.jpg",
+      "PackagePath": "staticwebassets\\image\\arrival_4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\image\\arrival_5.jpg",
+      "PackagePath": "staticwebassets\\image\\arrival_5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\image\\arrival_6.jpg",
+      "PackagePath": "staticwebassets\\image\\arrival_6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\image\\arrival_7.jpg",
+      "PackagePath": "staticwebassets\\image\\arrival_7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\image\\arrival_8.webp",
+      "PackagePath": "staticwebassets\\image\\arrival_8.webp"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\image\\arrival_9.jpg",
+      "PackagePath": "staticwebassets\\image\\arrival_9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\image\\banner.jpg",
+      "PackagePath": "staticwebassets\\image\\banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\image\\bg.png",
+      "PackagePath": "staticwebassets\\image\\bg.png"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\image\\blog_1.jpg",
+      "PackagePath": "staticwebassets\\image\\blog_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\image\\blog_2.jpg",
+      "PackagePath": "staticwebassets\\image\\blog_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\image\\blog_3.jpg",
+      "PackagePath": "staticwebassets\\image\\blog_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\image\\book_1.jpg",
+      "PackagePath": "staticwebassets\\image\\book_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\image\\book_10.png",
+      "PackagePath": "staticwebassets\\image\\book_10.png"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\image\\book_11.jpg",
+      "PackagePath": "staticwebassets\\image\\book_11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\image\\book_12.png",
+      "PackagePath": "staticwebassets\\image\\book_12.png"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\image\\book_13.png",
+      "PackagePath": "staticwebassets\\image\\book_13.png"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\image\\book_14.png",
+      "PackagePath": "staticwebassets\\image\\book_14.png"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\image\\book_15.png",
+      "PackagePath": "staticwebassets\\image\\book_15.png"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\image\\book_2.jpg",
+      "PackagePath": "staticwebassets\\image\\book_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\image\\book_3.jpg",
+      "PackagePath": "staticwebassets\\image\\book_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\image\\book_4.jpg",
+      "PackagePath": "staticwebassets\\image\\book_4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\image\\book_5.jpg",
+      "PackagePath": "staticwebassets\\image\\book_5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\image\\book_6.jpg",
+      "PackagePath": "staticwebassets\\image\\book_6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\image\\book_7.png",
+      "PackagePath": "staticwebassets\\image\\book_7.png"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\image\\book_8.png",
+      "PackagePath": "staticwebassets\\image\\book_8.png"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\image\\book_9.jpg",
+      "PackagePath": "staticwebassets\\image\\book_9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\image\\logo.png",
+      "PackagePath": "staticwebassets\\image\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\image\\mybook.jpg",
+      "PackagePath": "staticwebassets\\image\\mybook.jpg"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\image\\review_1.png",
+      "PackagePath": "staticwebassets\\image\\review_1.png"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\image\\review_2.png",
+      "PackagePath": "staticwebassets\\image\\review_2.png"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\image\\review_3.png",
+      "PackagePath": "staticwebassets\\image\\review_3.png"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\image\\review_4.png",
+      "PackagePath": "staticwebassets\\image\\review_4.png"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\image\\table.png",
+      "PackagePath": "staticwebassets\\image\\table.png"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\wiss\\Desktop\\GestionOfLivre\\GestionOfLivre\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.GestionOfLivre.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.GestionOfLivre.props",
+      "PackagePath": "build\\GestionOfLivre.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.GestionOfLivre.props",
+      "PackagePath": "buildMultiTargeting\\GestionOfLivre.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.GestionOfLivre.props",
+      "PackagePath": "buildTransitive\\GestionOfLivre.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

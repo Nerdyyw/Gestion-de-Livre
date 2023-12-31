@@ -1,0 +1,116 @@
+﻿@page
+@model GestionOfLivre.Pages.Livre.LivreModel
+@{
+
+    <h3>Liste des Livres</h3>
+    <a class='btn btn-primary btn-sm' href='/LivreCreate'> Nouveau Livre</a>
+
+    <div class="featured_boks">
+        <h1>Liste des Livres</h1>
+
+        <div class="featured_book_box">
+            @foreach (var item in Model.listLivre)
+            {
+                <div class="featured_book_card">
+                    <div class="featurde_book_img">
+                        <!-- Vous pouvez ajouter votre logique pour charger l'image de chaque livre ici -->
+                        <img src="~/image/mybook.jpg">
+                    </div>
+                    <div class="featurde_book_tag">
+                        <h2>ID Livre</h2>
+                        <p class="writer">@item.IDLivre</p>
+                        <div class="categories">Titre: @item.Titre</div>
+                        <p class="writer">SPM: @item.SPM</p>
+                        <p class="writer">IDEditeur: @item.IDEditeur</p>
+                        <p class="writer">IDAuteur: @item.IDAuteur</p>
+                        <p class="writer">IDCat: @item.IDCat</p>
+                        
+                        <div class="f_btn">
+                            <a class='btn btn-primary btn-sm' href='/LivreEdit?IDLivre=@item.IDLivre'> Editer </a>
+                            <a class='btn btn-danger btn-sm' href='/LivreDelete?IDLivre=@item.IDLivre'> Supprimer</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+
+    <style>
+        .featured_boks {
+            width: 100%;
+            height: 100vh;
+            padding: 70px 0;
+            margin-bottom: 200px;
+        }
+
+            .featured_boks h1 {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 30px;
+                font-size: 45px;
+            }
+
+            .featured_boks .featured_book_box {
+                width: 95%;
+                height: 60vh;
+                margin: 0 auto;
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Utilisation de repeat et auto-fit pour les colonnes dynamiques */
+                gap: 20px; /* Espace entre les cartes */
+                overflow: hidden;
+                overflow-x: scroll;
+            }
+
+                .featured_boks .featured_book_box .featured_book_card {
+                    width: 100%; /* Carte prend 100% de la largeur de la colonne */
+                    text-align: center;
+                    padding: 5px;
+                    border: 1px solid #919191;
+                }
+
+                    .featured_boks .featured_book_box .featured_book_card:hover {
+                        box-shadow: 0 0 5px #089da1;
+                    }
+
+                    .featured_boks .featured_book_box .featured_book_card .featurde_book_img img {
+                        width: 50%; /* Image prend 100% de la largeur de la carte */
+                        max-height: 30%; /* Hauteur maximale de l'image par rapport à la carte */
+                    }
+
+                    .featured_boks .featured_book_box .featured_book_card .featurde_book_tag {
+                        transform: scale(0.8); /* Mise à l'échelle du contenu à 80% */
+                        transform-origin: top center; /* Point d'origine de la mise à l'échelle */
+                    }
+
+                        .featured_boks .featured_book_box .featured_book_card .featurde_book_tag .writer {
+                            color: #919191;
+                        }
+
+                        .featured_boks .featured_book_box .featured_book_card .featurde_book_tag .categories {
+                            color: #089da1;
+                            margin-top: 8px;
+                        }
+
+                        .featured_boks .featured_book_box .featured_book_card .featurde_book_tag .f_btn {
+                            padding: 8px 20px;
+                            border: 2px solid #089da1;
+                            text-decoration: none;
+                            color: #000;
+                        }
+
+        ::-webkit-scrollbar {
+            width: 10px;
+            height: 5px;
+        }
+
+        ::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.2);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #089da1;
+            border-radius: 10px;
+        }
+    </style>
+}

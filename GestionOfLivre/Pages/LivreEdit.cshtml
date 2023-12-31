@@ -1,0 +1,52 @@
+﻿@page
+@model GestionOfLivre.Pages.LivreEdit.LivreEditModel
+@{
+}
+<br />
+<h2>Modifier les informations du livre :</h2>
+
+<form method="post">
+    <input type="hidden" name="IDLivre" value="@Model.Livreinfo.IDLivre" asp-for="Livreinfo.IDLivre">
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Titre</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="Titre" value="@Model.Livreinfo.Titre" asp-for="Livreinfo.Titre">
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">SPM</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="SPM" value="@Model.Livreinfo.SPM" asp-for="Livreinfo.SPM">
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">IDEditeur</label>
+        <div class="col-sm-6">
+            <select class="form-select" name="IDEditeur" asp-items="Model.Editeurs" asp-for="Livreinfo.IDEditeur"></select>
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">IDAuteur</label>
+        <div class="col-sm-6">
+            <select class="form-select" name="IDAuteur" asp-items="Model.Auteurs" asp-for="Livreinfo.IDAuteur"></select>
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">IDCat</label>
+        <div class="col-sm-6">
+            <select class="form-select" name="IDCat" asp-items="Model.Categories" asp-for="Livreinfo.IDCat"></select>
+        </div>
+    </div>
+
+    
+
+    <div class="row mb-3">
+        <div class="offset-sm3 col-sm-3 d-grid">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+        <div class="col-sm-3 d-grid">
+            <a class="btn btn-outline-primary" href="/Livre">Cancel</a>
+        </div>
+    </div>
+</form>
